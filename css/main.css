@@ -27,6 +27,7 @@
   background-color: var(--color-azul);
 
   cursor: pointer;
+  transition: .3s;
 }
 
 #links li {
@@ -42,4 +43,5 @@
 
   border: 2px solid var(--color-azul);
   font-size: 1.4rem;
+  transition: .3s;
 }
