@@ -1,0 +1,15 @@
+* {
+  --color-branco: #FFF;
+  --color-azul: #0074b9;
+  --color-shadow-azul: rgba(0 116 185 / 60%);
+}
+
+body {
+  font-family: "azo-sans-web", sans-serif;
+  letter-spacing: .5px;
+}
+
+#header,
+#footer {
+  background-color: var(--color-azul);
+}

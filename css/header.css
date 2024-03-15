@@ -1,0 +1,25 @@
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+.genSymbol {
+  margin: 1.6rem auto 1rem;
+  width: 45%;
+  max-width: 280px;
+
+  justify-content: space-around;
+}
+
+#divTitulo {
+  margin: 1rem auto;
+}
+
+#titulo {
+  font-size: 1.5rem;
+
+  color: var(--color-branco);
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: 500;
+}

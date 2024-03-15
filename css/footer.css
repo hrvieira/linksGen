@@ -1,0 +1,43 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+#footer span {
+  display: flex;
+  color: var(--color-branco);
+  align-self: center;
+  margin: .5rem 0;
+}
+
+#footer nav {
+  display: flex;
+}
+
+.linkF {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-branco);
+}
+
+.linkF:hover {
+  text-decoration: underline;
+}
+
+#copy a {
+  padding-left: .3rem;
+}
+
+.listaFooter {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem 0 0;
+  margin: 0 auto;
+}
+
+.iconeFooter {
+  padding: .2rem .5rem;
+  width: 1.5rem;
+}
