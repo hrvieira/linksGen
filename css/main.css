@@ -45,3 +45,34 @@
   font-size: 1.4rem;
   transition: .3s;
 }
+
+@media (max-width: 375px) {
+  #links {
+    font-size: 1rem;
+  }
+
+  .itemLista {
+    height: 1rem;
+    padding: .8rem;
+  }
+
+  #links li:hover {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #links {
+    font-size: .8rem;
+    margin: 1rem 1.8rem;
+  }
+
+  .itemLista {
+    height: .8rem;
+    padding: .6rem;
+  }
+
+  #links li:hover {
+    font-size: 1rem;
+  }
+}

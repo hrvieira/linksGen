@@ -23,3 +23,9 @@
   text-align: center;
   font-weight: 500;
 }
+
+@media (max-height: 375px) {
+  #titulo {
+    font-size: 1.3rem;
+  }
+}

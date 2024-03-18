@@ -41,3 +41,14 @@
   padding: .2rem .5rem;
   width: 1.5rem;
 }
+
+@media (max-height: 375px) {
+  .linkF {
+    font-size: .8rem;
+  }
+
+  .iconeFooter {
+    padding: .1rem .3rem;
+    width: 1rem;
+  }
+}
