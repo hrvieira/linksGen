@@ -46,7 +46,7 @@
   transition: .3s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 384px) {
   #links {
     font-size: 1rem;
   }
@@ -61,7 +61,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   #links {
     font-size: .8rem;
     margin: 1rem 1.8rem;

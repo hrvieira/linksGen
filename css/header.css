@@ -22,9 +22,15 @@
   margin: 1rem 0;
   text-align: center;
   font-weight: 500;
+
+  transition: .3s;
 }
 
-@media (max-height: 375px) {
+@media (max-width: 384px) {
+  .genSymbol {
+    margin: 1.2rem auto .5rem;
+  }
+
   #titulo {
     font-size: 1.3rem;
   }

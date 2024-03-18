@@ -42,9 +42,10 @@
   width: 1.5rem;
 }
 
-@media (max-height: 375px) {
-  .linkF {
+@media (max-width: 375px) {
+  #footer {
     font-size: .8rem;
+    padding: .5rem;
   }
 
   .iconeFooter {
