@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     itens[i].addEventListener('click', function() {
       var url = this.getAttribute('data-url');
 
-      window.location.href = url;
+      window.open(url, '_blank');
     });
   }
 });
